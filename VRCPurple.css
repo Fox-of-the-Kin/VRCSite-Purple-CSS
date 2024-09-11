@@ -1,0 +1,436 @@
+/* ==UserStyle==
+@name         VRChat
+@namespace    cum
+@author       Fox of the Kin
+@description  VRCha purple theme
+@version      1.0.0
+@license      CC0-1.0
+@preprocessor uso
+==/UserStyle== */
+@-moz-document url-prefix("https://vrchat.com/home"),
+url-prefix("https://vrchat.com/home"),
+url-prefix("https://www.vrchat.com/home"),
+url-prefix("https://www.vrchat.com/home") {
+	.fixed-top {
+		background-color: #111111!important;
+		box-shadow: none!important;
+	}
+
+	.btn-secondary {
+		background: rgba(0, 0, 0, 0.4);
+		border-radius: 2px;
+		border: none!important;
+	}
+
+	.leftbar,
+	.rightbar {
+		background: rgba(0, 0, 0, 0.4)!important
+	}
+
+	.home-content {
+		background: rgba(255, 0, 0, 0);
+	}
+
+	body {
+		/* funni yiff i cant use	background-image: url("https://static1.e621.net/data/a6/a5/a6a572d9541ec9b642d6acfc17373cda.gif")!important; */
+		background-color: #310F5F;
+		color: #b479ff;
+		background-size: cover!important;
+		background-repeat: no-repeat;
+	}
+
+	.card,
+	input {
+		background: rgba(0, 0, 0, 0.5)!important;
+		color: #8b15f9!important;
+	}
+
+	.btn-primary,
+	.btn-outline-secondary,
+	.btn-outline-primary {
+		background: rgba(17, 186, 213, 0.2);
+		color: #8b15f9;
+		box-sizing: border-box;
+		border: none!important;
+	}
+
+	.alert {
+		background: #10279A;
+		border: none!important;
+		color: white!important;
+		margin-top: 1%;
+	}
+	/* Seach Bar */
+	input {
+		background: rgba(0, 0, 0, 0) !important;
+		color: #b479ff !important;
+	}
+	.css-txzckx {
+		color: #b479ff;
+	}
+	.form-control::placeholder {
+		color: #b479ff;
+		opacity: 1;
+	}
+	.home-content {
+		background-color: #310f5f;
+		color: #b479ff;
+		border: #8b15f9;
+	}
+	.css-1jqvfvs/* "Show More" worlds button */
+	{
+		border: 2px solid #8b15f9;
+		background: #310f5f;
+		color: #b479ff;
+	}
+	.css-1jqvfvs:hover/* "Show More" worlds button */
+	{
+		border: 2px solid #8b15f9;
+		background: #310f5f;
+		color: #b479ff;
+	}
+}
+.css-kfjcvw/* Who's playing what bottom half */
+{
+	/* Color & Background */
+	background-color: #310f5f;
+	color: #b479ff;
+	/* Box */
+	border: transparent;
+	border-top: 0px solid #8b15f9;
+	border-right: 2.5px solid #8b15f9;
+	border-bottom: 2.5px solid #8b15f9;
+	border-left: 2.5px solid #8b15f9;
+}
+.css-1brgsnm/* Who's playing what top half */
+{
+	/* Font & Text */
+	background-color: #310f5f;
+	color: #B479FF;
+	/* Box */
+	border: transparent;
+	border-top: 2.5px solid #8b15f9;
+	border-right: 2.5px solid #8b15f9;
+	border-bottom: 0px solid #8b15f9;
+	border-left: 2.5px solid #8b15f9;
+}
+.align-self-end/* Who's playing what Invite, player count, group stuff */
+{
+	/* Font & Text */
+	text-decoration: #b479ff;
+	/* Color & Background */
+	background-color: #310f5f;
+	color: #b479ff;
+	/* Box */
+	border: 1.25px solid #8b15f9;
+	border-top: 1.25px solid #8b15f9;
+	border-right: 1.25px solid #8b15f9;
+	border-bottom: 1.25px solid #8b15f9;
+	border-left: 1.25px solid #8b15f9;
+}
+.mx-1/* Who's playing what player box */
+{
+	background-color: #310f5f;
+	color: #b479ff;
+	border: 2.5px solid #8b15f9;
+}
+.css-19c5ic6 {
+	color: #b479ff;
+}
+
+/* NAV BAR*/
+.css-1hs0n36/* logo */
+{
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: #310f5f;
+	/*background-image: url("https://static1.e621.net/data/a9/9d/a99d2a65ee0181fc2ac5aff0a6f1da43.jpg");*/
+	background-image: none;
+	color: #310f5f;
+	/* Box */
+	height: 45px;
+	width: 103.2px;
+	border: 0px #8b15f9;
+	border-top: 0px #8b15f9;
+	border-right: 0px #8b15f9;
+	border-bottom: 0px #8b15f9;
+	border-left: 0px #8b15f9;
+}
+.css-7lu28v/* Search Bar*/
+{
+	/* Font & Text */
+	text-decoration: rgb(139, 21, 249);
+	/* Color & Background */
+	background-color: #310f5f;
+	color: rgb(139, 21, 249);
+	/* Box */
+	height: 37px;
+	width: 645.55px;
+	border: 1.5px solid #8b15f9;
+	border-top: 1.5px solid #8b15f9;
+	border-right: 1.5px solid #8b15f9;
+	border-bottom: 1.5px solid #8b15f9;
+	border-left: 1.5px solid #8b15f9;
+}
+.text-center {
+	color: #b479ff;
+}
+.css-1qhs18j .navbar/* Full Bar */
+{
+	background-color: #310f5f !important;
+	border-bottom: 3px solid #8b15f9;
+}
+.css-yjay0l/* Buttons on main menu on the left wing */
+{
+	background: #310f5f;
+	border: 2px solid #8b15f9;
+	color: #b479ff;
+}
+.css-yjay0l:hover/* Buttons on main menu on the left wing HOVER */
+{
+	background: #310f5f;
+	border: 2px solid #8b15f9;
+	color: #b479ff;
+}
+.css-1qhs18j .navbar-btn/* Top Button on Nav */
+{
+	background: #310f5f !important;
+	border: 3px solid #8b15f9 !important;
+}
+.css-1tnesjs/* Main Menu Boarder for Profile */
+{
+	border: 2px solid #8b15f9;
+	background-color: #310f5f;
+}
+.css-1dt3z6y/* Main Menu Background for Profile*/
+{
+	background-color: #310f5f;
+}
+a/* MM Status */
+{
+	color: #b479ff;
+	text-decoration: none;
+}
+.css-ab3jnw a/* MM Name */
+{
+	color: #b479ff;
+}
+.css-1qbq5er .friends-button/* Right Wing Wing */
+{
+	background: #310f5f;
+	border: 4px solid #8b15f9;
+}
+.css-1qbq5er .friends-button:hover /* Right Wing Wing Hover */ {
+  background: #310f5f;
+}
+.css-1paa7ch/* Friend Filter Right Wing */
+{
+	background-color: #310f5f;
+	border: 2px solid #8b15f9;
+	color: #b479ff;
+}
+.css-1paa7ch:hover/* Friend Filter Hover */
+{
+	background-color: #8b15f9;
+	border: 2px solid #310f5f;
+	color: #b479ff;
+}
+.css-1lw9ioa:hover/* Friend Filter Selection */
+{
+	background-color: #310f5f;
+	border: 2px solid #8b15f9;
+	color: #b479ff;
+}
+.css-1lw9ioa/* Friend Filter Drop Down Selection */
+{
+	background-color: #310f5f;
+	border: 2px solid #8b15f9;
+	color: #b479ff;
+}
+.css-cdfigp/* Friend Filter Drop Down */
+{
+	background-color: #310f5f;
+	border: 2px solid #8b15f9;
+	color: #b479ff;
+}
+.css-cdfigp:hover/* Friend Filter Drop Down Hover */
+{
+	background-color: #8b15f9;
+	border: 2px solid #310f5f;
+	color: #b479ff;
+}
+.css-3x907s /* Fried Filter border */ {
+  background-color: #310f5f;
+  border: 2px solid #8b15f9;
+}
+.css-qcoia9, .css-1a4bhx8, .tw-pl-1, .css-1efeorg, .css-1x6bjk, .css-ynzmmt /* Sort By & Status & Time last On*/
+{
+	color: #b479ff;
+}
+.css-1bcpvc0:focus/* Right Wing Friend Search */
+{
+	background: #310f5f;
+	border-color: #8b15f9;
+	color: #b479ff;
+}
+.css-1bcpvc0/* Right Wing Friend Search Bar */
+{
+	background: #310f5f;
+	border: 2px solid #8b15f9;
+	border-top-color: #8b15f9;
+	border-right-color: #8b15f9;
+	border-bottom-color: #8b15f9;
+	border-left-color: #8b15f9;
+	color: #b479ff;
+}
+.css-15l2rn0/* Friend Selction */
+{
+	background-color: #310f5f;
+}
+
+.css-15l2rn0:hover/* Friend Selction Hover */
+{
+	background-color: #8b15f9;
+}
+.css-1wvue8c:hover /* Friend Filter Hover */ {
+  background-color: #8b15f9;
+  color: #b479ff; 
+}
+.css-1wvue8c /* Friend Filter */ {
+  background-color: #310f5f;
+  color: #b479ff; 
+}
+.css-raqwav {
+	color: #b479ff;
+}
+.css-189mp69, .css-stcw4n, .css-i95xw3, .css-1hyjd8g:hover, .css-1hyjd8g/* Friend Selctio Bottom Half */
+{
+	color: #b479ff;
+}
+.css-14dkj72 {
+	background-color: #310f5f;
+	color: #b479ff;
+	border: #8b15f9;
+}
+/* Profile Page	*/
+.tw-m-0, h2.tw-text-h2 /* Status & Name */ {
+	color: #b479ff;
+}
+
+.css-190x7y0, .css-zs2p7k /* Main Profile*/ {
+	background-color: #310f5f;
+	color: #b479ff;
+	border: #8b15f9;
+}
+.tw-bg-grey\/\[97\%\] /* Profile Background */ {
+  background-color: #310f5f !important;
+}
+.tw-text-white /* Name */ {
+  --tw-text-opacity: 1 !important;
+  color: #b479ff !important;
+}
+.tw-bg-grey\/90 {
+  background-color: #310f5f !important;
+	color: #b479ff;
+}
+.tw-bg-button-bg /* Button */ {
+  --tw-bg-opacity: 1 !important;
+  background-color: #310f5f !important;
+  border: 2px solid rgb(139, 21, 249);
+}
+.tw-text-highlight /* Button Arrow */ {
+  --tw-text-opacity: 1 !important;
+  color: #b479ff !important;
+}
+.placeholder\:tw-text-placeholder-text::placeholder, .css-12r2y8u /* Note Box */ {
+  --tw-text-opacity: 1 !important;
+  color: #b479ff !important;
+  background-color: #310f5f;
+  border-color: #8b15f9;
+}
+
+.tw-text-placeholder-text, .css-1a5rd5y /* Note Box Pen */ {
+  --tw-text-opacity: 1 !important;
+  color: #b479ff !important;
+}
+.css-1bojnyn, .css-mdmpp5, .css-zjik7, .css-1i9fxz0 /* Group Mini */ {
+  background-color: #310f5f;
+  border-color: #8b15f9;
+  color: #b479ff;
+}
+.css-2nen93, .css-1c98ue0 /* Notfication Tab Open*/ {
+	  background-color: #310f5f;
+	border-bottom: 2px solid #8b15f9 !important;
+}
+.css-1nyl2gd, .css-dklbma /* Notfication Display */ {
+  border: 2px solid rgb(139, 21, 249);
+  background: #310f5f;
+  color: #b479ff;
+}
+.css-kp3m62, .text-white /* Notfication Type */ {
+  background: #310f5f;
+  color: #b479ff !important;
+  border: 2px solid rgb(139, 21, 249);
+}
+.css-pe3dyn /* Notfication End */ {
+  border-top: 2px solid #8b15f9 !important;
+  background-color: #310f5f;
+}
+.css-1f5kkqi /* Avatar has been moved bullshit */ {
+	visibility: hidden;
+}
+.css-1o3w9m7 .search-container a, .css-1yw163h /*  Avatar Name */ {
+	color: #b479ff
+}
+.css-1o3w9m7 .search-container.private, .css-2gtp57:hover, .css-1o3w9m7 .search-container /* Avatars */ {
+	border: 1px solid #8b15f9;
+}
+.css-2gtp57, .css-194166n, .css-1bnt3yv, .css-pxlwzl /* Avatar Public/Private/Reset/Content Warnings BUttonw */ {
+  border: 2px solid #8b15f9;
+  background: #310f5f;
+  color: #b479ff;
+}
+.css-2gtp57:hover, .css-194166n:hover, .css-1bnt3yv:hover, .css-pxlwzl:hover /* Avatar Public/Private/Reset/Content Warnings BUtton Hover */ {
+  border: 2px solid #310f5f;
+  background: #8b15f9;
+  color: #b479ff;
+}
+.css-1okrue8, .css-1okrue8:hover /* Content Warnings Button Active */ {
+  border: 2px solid #310f5f;
+  background: #b479ff;
+  color: #8b15f9;
+}
+.css-1bn6yj, .css-77r2tx, .css-77r2tx:hover, .css-1bn6yj:hover, .css-1quzdqy, .css-mkte9y, .css-1quzdqy:hover /* Avatar Add Favs BUttons */ {
+  border: 2px solid #8b15f9;
+  background: #310f5f;
+  color: #b479ff;
+}
+.css-1ac7fgw, .css-1fgxn7x, .css-17tuc33 /* Avatar Fav Drop Dow Arrow And Smol Notficatian Icon and Avatar Pgae Icon */ {
+  color: #b479ff;
+}
+.css-1hhuku4 /* Notfication Number */ {
+  background: #8b15f9;
+  color: #b479ff;
+  border: 2px solid #310f5f;
+} 
+.css-14ngdq4 /* How Many Avatars/Worlds you have faved */ {
+  border: 2px solid #8b15f9;
+  background: #310f5f;
+  color: #b479ff;
+}
+.css-1o09fqq, .css-1cechmu /* Smol Notfication popup */ {
+  border: 2px solid #8b15f9;
+  background: #310f5f;
+  color: #b479ff;
+}
+.css-1il99ht /* Avatar Details */ {
+	color: #b479ff;
+}
+.css-1w3pyrn, .css-1bvr82i, .css-11f1sih, .css-1udvve8, .css-1ws1gvz, .css-1r6rydj /* Discovery */ {
+  border: 2px solid #8b15f9;
+  background: #310f5f;
+  color: #b479ff;
+}
+.css-1r6rydj:hover .e150l8l92, .css-1udvve8:hover .e150l8l92 /* Discovery Hover */ {
+  background: #8b15f9;
+}
