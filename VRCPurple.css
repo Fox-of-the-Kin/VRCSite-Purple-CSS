@@ -57,7 +57,7 @@ url-prefix("https://www.vrchat.com/home") {
 	.alert {
 		background: #310f5f;
 		border: none!important;
-		color: white!important;
+		color: #b479ff!important;
 		margin-top: 1%;
 	}
 	/* Seach Bar */
@@ -88,6 +88,10 @@ url-prefix("https://www.vrchat.com/home") {
 		border: 2px solid #310f5f;
 		background: #8b15f9;
 		color: #b479ff;
+	}
+	.btn.disabled, .btn:disabled, fieldset:disabled /* Button Disable */ {
+		background: black;
+		color: #8b15f9;
 	}
 }
 .css-kfjcvw/* Who's playing what bottom half */
@@ -199,7 +203,7 @@ a/* MM Status */
 	color: #b479ff;
 	text-decoration: none;
 }
-.css-ab3jnw a/* MM Name */
+.css-ab3jnw a /* MM Name */
 {
 	color: #b479ff;
 }
@@ -393,7 +397,7 @@ a/* MM Status */
   background: #310f5f;
   color: #b479ff;
 }
-.css-1ac7fgw, .css-1fgxn7x, .css-17tuc33 /* Avatar Fav Drop Dow Arrow And Smol Notficatian Icon and Avatar Pgae Icon */ {
+.css-1ac7fgw, .css-1fgxn7x, .css-17tuc33, .css-5aufh3 /* Avatar Fav Drop Dow Arrow And Smol Notficatian Icon and Avatar Pgae Icon */ {
   color: #b479ff;
 }
 .css-1hhuku4 /* Notfication Number */ {
@@ -442,4 +446,31 @@ a/* MM Status */
   --tw-bg-opacity: 1 !important;
   background-color: #310f5f !important;
   border-color: #8b15f9;
+}
+.e18c1r7j36:checked + .css-ohapj4 /* Account setting filters*/ {
+  background-color: #8b15f9;
+}
+.tw-bg-grey /* Bio */ {
+  border: 2px solid #8b15f9;
+  background-color: #310f5f !important;
+  color: #b479ff;
+}
+.tw-bg-darker-grey /* Bio Edit Box */ {
+  --tw-bg-opacity: 1 !important;
+  background-color: #310f5f !important;
+  color: #b479ff;
+}
+.tw-bg-black /* Bio Langugue */ {
+  --tw-bg-opacity: 1 !important;
+  background-color: #310f5f !important;
+  background-color: #310f5f var(--tw-bg-opacity) !important;
+  border: 2px solid #8b15f9;
+}
+.tw-bg-option-bg /* Status Selection */ {
+  background-color: #310f5f !important;
+  border: 2px solid #8b15f9;
+}
+.hover\:tw-bg-button-bg:hover /* Status Selection Hover */ {
+  background-color: #8b15f9 !important;
+  border: 2px solid #8b15f9;
 }
