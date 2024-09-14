@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name         VRChat
-@namespace    cum
+@name         VRCPurple by Fox of the Kin
+@namespace    VRCP
 @author       Fox of the Kin
-@description  VRCha purple theme
+@description  VRChat but purple
 @version      1.0.0
 @license      CC0-1.0
 @preprocessor uso
@@ -55,7 +55,7 @@ url-prefix("https://www.vrchat.com/home") {
 	}
 
 	.alert {
-		background: #10279A;
+		background: #310f5f;
 		border: none!important;
 		color: white!important;
 		margin-top: 1%;
@@ -77,16 +77,16 @@ url-prefix("https://www.vrchat.com/home") {
 		color: #b479ff;
 		border: #8b15f9;
 	}
-	.css-1jqvfvs/* "Show More" worlds button */
+	.css-1jqvfvs, .css-1byf9ui, .css-yjay0l, .btn, .css-bxof1v /* Buttons */
 	{
 		border: 2px solid #8b15f9;
 		background: #310f5f;
 		color: #b479ff;
 	}
-	.css-1jqvfvs:hover/* "Show More" worlds button */
+	.css-1jqvfvs:hover, .css-yjay0l:hover, .css-1byf9ui:hover, .css-1byf9ui:focus, .btn:hover, .css-bxof1v:hover /* Button Hovers */
 	{
-		border: 2px solid #8b15f9;
-		background: #310f5f;
+		border: 2px solid #310f5f;
+		background: #8b15f9;
 		color: #b479ff;
 	}
 }
@@ -179,18 +179,6 @@ url-prefix("https://www.vrchat.com/home") {
 {
 	background-color: #310f5f !important;
 	border-bottom: 3px solid #8b15f9;
-}
-.css-yjay0l/* Buttons on main menu on the left wing */
-{
-	background: #310f5f;
-	border: 2px solid #8b15f9;
-	color: #b479ff;
-}
-.css-yjay0l:hover/* Buttons on main menu on the left wing HOVER */
-{
-	background: #310f5f;
-	border: 2px solid #8b15f9;
-	color: #b479ff;
 }
 .css-1qhs18j .navbar-btn/* Top Button on Nav */
 {
@@ -433,4 +421,25 @@ a/* MM Status */
 }
 .css-1r6rydj:hover .e150l8l92, .css-1udvve8:hover .e150l8l92 /* Discovery Hover */ {
   background: #8b15f9;
+}
+.css-1boirwd, .css-vd81th /* SDK Page Info */ {
+  border: 2px solid #8b15f9;
+  background: #310f5f;
+  color: #b479ff;
+}
+.css-u8be50 /* Error/Warningg Border */ {
+  border: 2px solid #f91515;
+}
+.css-kqs0q4, .css-kqs0q4.active /* Wallet and Market */ {
+	color: #b479ff;
+	border-bottom: 2px solid #8b15f9;
+}
+.css-kqs0q4.active:hover,.css-kqs0q4:hover /* Wallet and Market Hover/Active */ {
+	color: #8b15f9;
+	border-bottom: 2px solid #8b15f9;
+}
+.tw-bg-\[\#252A30\], .css-o6nhw9, .css-1y7mz5l /* Wallet Page */ {
+  --tw-bg-opacity: 1 !important;
+  background-color: #310f5f !important;
+  border-color: #8b15f9;
 }
