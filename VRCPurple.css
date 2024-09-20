@@ -203,7 +203,7 @@ a/* MM Status */
 	color: #b479ff;
 	text-decoration: none;
 }
-.css-ab3jnw a /* MM Name */
+.css-ab3jnw a, .css-1p96q4l .location-title a /* MM Name and current instance location onn left wing */
 {
 	color: #b479ff;
 }
@@ -377,6 +377,9 @@ a/* MM Status */
 .css-1o3w9m7 .search-container.private, .css-2gtp57:hover, .css-1o3w9m7 .search-container /* Avatars */ {
 	border: 1px solid #8b15f9;
 }
+.css-18ycinb, .css-1ufg0ue /* Fav Page Text and icons */ {
+	color: #b479ff;
+}
 .css-2gtp57, .css-194166n, .css-1bnt3yv, .css-pxlwzl /* Avatar Public/Private/Reset/Content Warnings BUttonw */ {
   border: 2px solid #8b15f9;
   background: #310f5f;
@@ -418,6 +421,14 @@ a/* MM Status */
 .css-1il99ht /* Avatar Details */ {
 	color: #b479ff;
 }
+.css-7btfrp, .css-4gb0cy /* Edit Mode and Grids */ {
+  border: 2px solid #8b15f9;
+  background: #310f5f;
+  color: #b479ff;
+}
+.css-10nlzc6 /* Edit Mode Pen */ {
+  color: #b479ff;
+}
 .css-1w3pyrn, .css-1bvr82i, .css-11f1sih, .css-1udvve8, .css-1ws1gvz, .css-1r6rydj /* Discovery */ {
   border: 2px solid #8b15f9;
   background: #310f5f;
@@ -455,10 +466,16 @@ a/* MM Status */
   background-color: #310f5f !important;
   color: #b479ff;
 }
+.tw-text-lighter-grey /* Bio Text */  {
+	color: #b479ff !important;
+}
 .tw-bg-darker-grey /* Bio Edit Box */ {
   --tw-bg-opacity: 1 !important;
   background-color: #310f5f !important;
   color: #b479ff;
+}
+.css-wqjd06, .after\:tw-content-\[\'\|\'\]::after, .after\:tw-content-\[\'\|\'\]::after, .lg\:tw-inline-block, .tw-mr-0, .after\:tw-ml-2::after, .tw-mr-2 /* Bio Currently Playingg Icon */ {
+	color: #b479ff;
 }
 .tw-bg-black /* Bio Langugue */ {
   --tw-bg-opacity: 1 !important;
