@@ -203,7 +203,7 @@ a/* MM Status */
 	color: #b479ff;
 	text-decoration: none;
 }
-.css-ab3jnw a, .css-1p96q4l .location-title a /* MM Name and current instance location onn left wing */
+.css-ab3jnw a, .css-1p96q4l .location-title a, .css-23btei /* MM Name and current instance location onn left wing */
 {
 	color: #b479ff;
 }
@@ -490,4 +490,8 @@ a/* MM Status */
 .hover\:tw-bg-button-bg:hover /* Status Selection Hover */ {
   background-color: #8b15f9 !important;
   border: 2px solid #8b15f9;
+}
+.css-1gajoyy, .css-1gid8ry, .css-1m0kq01, .css-1418h5t, .css-1pp9hf7 /* Block and Mute */ {
+  background: #310f5f;
+  color: #b479ff;
 }
