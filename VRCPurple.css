@@ -77,13 +77,23 @@ url-prefix("https://www.vrchat.com/home") {
 		color: #b479ff;
 		border: #8b15f9;
 	}
-	.css-1jqvfvs, .css-1byf9ui, .css-yjay0l, .btn, .css-bxof1v /* Buttons */
+	.css-2zg0qg .world-image .world-size, .css-2zg0qg .world-image .world-users, .css-2zg0qg .box-shadow /* VRC World Lunch Page CSS */ {
+		background-color: #310f5f;
+		color: #b479ff;
+	}
+	.css-2zg0qg p, .css-2zg0qg .header .card-text /* VRC World Lunch Page CSS | Dscription */ {
+		color: #b479ff; 
+	}
+	.css-2zg0qg h4 /* VRC World Lunch Page CSS | Descripton title */ {
+		color: #8b15f4;
+	}
+	.css-1jqvfvs, .css-1byf9ui, .css-yjay0l, .btn, .css-bxof1v, .css-1xe1gag, .css-osfcs3, .css-j2mq1s, .css-2zg0qg .launch-btn /* Buttons */
 	{
 		border: 2px solid #8b15f9;
 		background: #310f5f;
 		color: #b479ff;
 	}
-	.css-1jqvfvs:hover, .css-yjay0l:hover, .css-1byf9ui:hover, .css-1byf9ui:focus, .btn:hover, .css-bxof1v:hover /* Button Hovers */
+	.css-1jqvfvs:hover, .css-yjay0l:hover, .css-1byf9ui:hover, .css-1byf9ui:focus, .btn:hover, .css-bxof1v:hover, .css-1xe1gag:hover, .css-osfcs3:hover, .css-j2mq1s:hover /* Button Hovers */
 	{
 		border: 2px solid #310f5f;
 		background: #8b15f9;
@@ -120,17 +130,9 @@ url-prefix("https://www.vrchat.com/home") {
 }
 .align-self-end/* Who's playing what Invite, player count, group stuff */
 {
-	/* Font & Text */
-	text-decoration: #b479ff;
-	/* Color & Background */
 	background-color: #310f5f;
 	color: #b479ff;
-	/* Box */
-	border: 1.25px solid #8b15f9;
-	border-top: 1.25px solid #8b15f9;
-	border-right: 1.25px solid #8b15f9;
-	border-bottom: 1.25px solid #8b15f9;
-	border-left: 1.25px solid #8b15f9;
+    border: 2px solid #8b15f9;
 }
 .mx-1/* Who's playing what player box */
 {
@@ -371,7 +373,7 @@ a/* MM Status */
 .css-1f5kkqi /* Avatar has been moved bullshit */ {
 	visibility: hidden;
 }
-.css-1o3w9m7 .search-container a, .css-1yw163h /*  Avatar Name */ {
+.css-1o3w9m7 .search-container a, .css-1yw163h, .css-a2wvjq /*  Avatar Name and Preformance Rating */ {
 	color: #b479ff
 }
 .css-1o3w9m7 .search-container.private, .css-2gtp57:hover, .css-1o3w9m7 .search-container /* Avatars */ {
@@ -442,7 +444,10 @@ a/* MM Status */
   background: #310f5f;
   color: #b479ff;
 }
-.css-u8be50 /* Error/Warningg Border */ {
+.css-11p52gn /* SDK Text */ {
+	color: #b479ff;
+}
+.css-u8be50 /* Error/Warning Border */ {
   border: 2px solid #f91515;
 }
 .css-kqs0q4, .css-kqs0q4.active /* Wallet and Market */ {
@@ -493,5 +498,12 @@ a/* MM Status */
 }
 .css-1gajoyy, .css-1gid8ry, .css-1m0kq01, .css-1418h5t, .css-1pp9hf7 /* Block and Mute */ {
   background: #310f5f;
+  color: #b479ff;
+}
+.css-oc1b6m, .css-5a6l2d, .css-8xm4fy, .css-1rmx6rm, .css-799023 /* World Detials and instance type */ { 
+  color: #b479ff;	
+}
+.toast-container css-1njtml6 e1jt59d20, .css-v42myl, .ehlx1tk1, .toast-header, .me-auto ms-2 /* Toast when unadding and adding avatars favs */ {
+  background-color: #310f5f;
   color: #b479ff;
 }
