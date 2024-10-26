@@ -87,13 +87,13 @@ url-prefix("https://www.vrchat.com/home") {
 	.css-2zg0qg h4 /* VRC World Lunch Page CSS | Descripton title */ {
 		color: #8b15f4;
 	}
-	.css-1jqvfvs, .css-1byf9ui, .css-yjay0l, .btn, .css-bxof1v, .css-1xe1gag, .css-osfcs3, .css-j2mq1s, .css-2zg0qg .launch-btn /* Buttons */
+	.css-1jqvfvs, .css-1byf9ui, .css-yjay0l, .btn, .css-bxof1v, .css-1xe1gag, .css-osfcs3, .css-j2mq1s, .css-2zg0qg .launch-btn, .css-1vrq36y, .css-3c8aa9 /* Buttons */
 	{
 		border: 2px solid #8b15f9;
 		background: #310f5f;
 		color: #b479ff;
 	}
-	.css-1jqvfvs:hover, .css-yjay0l:hover, .css-1byf9ui:hover, .css-1byf9ui:focus, .btn:hover, .css-bxof1v:hover, .css-1xe1gag:hover, .css-osfcs3:hover, .css-j2mq1s:hover /* Button Hovers */
+	.css-1jqvfvs:hover, .css-yjay0l:hover, .css-1byf9ui:hover, .css-1byf9ui:focus, .btn:hover, .css-bxof1v:hover, .css-1xe1gag:hover, .css-osfcs3:hover, .css-j2mq1s:hover, .css-1vrq36y:hover, .css-3c8aa9:hover /* Button Hovers */
 	{
 		border: 2px solid #310f5f;
 		background: #8b15f9;
@@ -382,17 +382,17 @@ a/* MM Status */
 .css-18ycinb, .css-1ufg0ue /* Fav Page Text and icons */ {
 	color: #b479ff;
 }
-.css-2gtp57, .css-194166n, .css-1bnt3yv, .css-pxlwzl /* Avatar Public/Private/Reset/Content Warnings BUttonw */ {
+.css-ncp9n0 /* Avatar Public/Private/Reset/Content Warnings BUttons */ {
   border: 2px solid #8b15f9;
   background: #310f5f;
   color: #b479ff;
 }
-.css-2gtp57:hover, .css-194166n:hover, .css-1bnt3yv:hover, .css-pxlwzl:hover /* Avatar Public/Private/Reset/Content Warnings BUtton Hover */ {
+.css-ncp9n0:hover /* Avatar Public/Private/Reset/Content Warnings BUttons Hover */ {
   border: 2px solid #310f5f;
   background: #8b15f9;
   color: #b479ff;
 }
-.css-1okrue8, .css-1okrue8:hover /* Content Warnings Button Active */ {
+.css-ncp9n0:active, .css-1nf4tbo:hover, .css-1nf4tbo /* Content Warnings Button Active */ {
   border: 2px solid #310f5f;
   background: #b479ff;
   color: #8b15f9;
